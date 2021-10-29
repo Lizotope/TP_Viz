@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Wellness in the World</title>
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <script src="/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/d3.min.js"></script>
+    </head>
+    <body>
+        <header class="navbar navbar-expand-md navbar-dark bg-secondary">
+            <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main Navigation">
+                <a class="navbar-brand" href="/">Wellness in the world !</a>
+            </nav>
+        </header>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" href="lizounette.html">Lizounette</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="autre1.html">Autre 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Autre 2</a>
+            </li>
+        </ul>
+        <div class="card">
+            <h3 class="card-header">
+                Super graphique de autre2
+            </h3>
+            <div id="graph"></div>
+            <h2>Quelques commentaires</h2>
+        </div>
+        <script>
+            /*const body = d3.select('div#graph');
+
+            datas = d3.json("/data.json", function(data) {
+                return data;
+            });
+
+            svg = datas.then(function(data) {
+
+                return svg.node();
+            });
+
+            svg.then(function(node){
+                body.append(() => node);
+            });*/
+        </script>
+        <footer></footer>
+    </body>
+</html>

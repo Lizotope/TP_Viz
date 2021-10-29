@@ -1,0 +1,74 @@
+{
+    "name": "wellness",
+    "children":
+    [
+        {
+            "name": "FACTEUR1",
+            "children":
+                [
+                    {
+                        "name": "Europe",
+                        "children": 
+                        [
+                            {
+                                "name": "France",
+                                "value": 4
+                            },
+                            {
+                                "name": "Allemagne",
+                                "value": 2
+                            },
+                            {
+                                "name": "Italie",
+                                "value": 1
+                            },
+                            {
+                                "name": "Espagne",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Afrique",
+                        "value": 10
+                    },
+                    {
+                        "name": "Asie",
+                        "value": 2
+                    },
+                    {
+                        "name": "Amerique Sud",
+                        "value": 2
+                    },
+                    {
+                        "name": "Amerique Nord",
+                        "value": 2
+                    },
+                    {
+                        "name": "Oceanie",
+                        "value": 2
+                    }
+                ]
+        },
+        {
+            "name": "FACTEUR2",
+            "value": 20
+        },
+        {
+            "name": "FACTEUR3",
+            "value": 20
+        },
+        {
+            "name": "FACTEUR4",
+            "value": 15
+        },
+        {
+            "name": "FACTEUR5",
+            "value": 5
+        },
+        {
+            "name": "FACTEUR6",
+            "value": 5
+        }
+    ]
+}
